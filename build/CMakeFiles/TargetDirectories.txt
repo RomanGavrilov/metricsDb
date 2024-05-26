@@ -1,0 +1,3 @@
+/home/rga/metricsDb/build/CMakeFiles/tiny_metrics.dir
+/home/rga/metricsDb/build/CMakeFiles/edit_cache.dir
+/home/rga/metricsDb/build/CMakeFiles/rebuild_cache.dir

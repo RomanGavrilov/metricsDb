@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/rga/metricsDb/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/tiny_metrics.dir/main.cpp.o -c /home/rga/metricsDb/main.cpp",
+  "file": "/home/rga/metricsDb/main.cpp"
+},
+{
+  "directory": "/home/rga/metricsDb/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/tiny_metrics.dir/metrics-db.cpp.o -c /home/rga/metricsDb/metrics-db.cpp",
+  "file": "/home/rga/metricsDb/metrics-db.cpp"
+},
+{
+  "directory": "/home/rga/metricsDb/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/tiny_metrics.dir/file-writer.cpp.o -c /home/rga/metricsDb/file-writer.cpp",
+  "file": "/home/rga/metricsDb/file-writer.cpp"
+},
+{
+  "directory": "/home/rga/metricsDb/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/tiny_metrics.dir/labels-writer.cpp.o -c /home/rga/metricsDb/labels-writer.cpp",
+  "file": "/home/rga/metricsDb/labels-writer.cpp"
+}
+]
