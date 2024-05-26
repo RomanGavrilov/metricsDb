@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/tiny_metrics.dir/main.cpp.o CMakeFiles/tiny_metrics.dir/metrics-db.cpp.o CMakeFiles/tiny_metrics.dir/file-writer.cpp.o CMakeFiles/tiny_metrics.dir/labels-writer.cpp.o -o tiny_metrics 
