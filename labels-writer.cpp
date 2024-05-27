@@ -24,7 +24,7 @@ LabelsWriter::LabelsWriter(const std::filesystem::path &dbPath)
 
 void LabelsWriter::Write(const std::string &label)
 {
-    // mIndexWriter.Write(hashString(label));
+    mIndexWriter.Write(hashString(label));
     mDataWriter.Write(label);
 }
 

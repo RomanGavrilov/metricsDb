@@ -36,7 +36,7 @@ int main(int argc, char **argv)
     MetricsDb metrics(argv[1]);
     PrintMemoryUsage();
 
-    const std::string prometheus_metrics_file = "/home/rga/algorithms/prometheus-metrics.txt";
+    const std::string prometheus_metrics_file = "/home/rga/metricsDb/data/prometheus-metrics.txt";
     std::ifstream file(prometheus_metrics_file);
 
     std::string line;

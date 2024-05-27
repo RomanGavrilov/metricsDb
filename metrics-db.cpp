@@ -107,8 +107,6 @@ MetricsDb::MetricsDb(std::string dbPath) : mPath(std::move(dbPath)), mLabelsWrit
 
 void MetricsDb::SaveMetric(std::string prometheusMetric)
 {
-    // metric_name{label1="value1", label2="value2", ...} value
-    // "node_cpu_seconds_total{cpu=\"0\",mode=\"idle\"} 123456.78"
     size_t labelStart = prometheusMetric.find('{');
     if (labelStart == std::string_view::npos)
     {
